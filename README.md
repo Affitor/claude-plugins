@@ -19,7 +19,7 @@ gemini extensions install https://github.com/Affitor/claude-plugins
 
 The CLI asks for the same key and keeps it in the system keychain.
 
-Since June 18, 2026, Google AI Pro, Ultra and free individual users use Antigravity CLI instead of Gemini CLI. If you moved, see [Google's migration guide](https://antigravity.google/docs/cli/gcli-migration).
+Some Google plans moved from Gemini CLI to Antigravity CLI. If you use Antigravity CLI, see [Google's migration guide](https://antigravity.google/docs/cli/gcli-migration).
 
 ## Any other MCP client
 
