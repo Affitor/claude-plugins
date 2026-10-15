@@ -1,0 +1,15 @@
+{
+  "name": "affitor",
+  "description": "Affitor plugins for Claude Code: affiliate tracking tools and the integration skill.",
+  "owner": {
+    "name": "Affitor",
+    "email": "hello@affitor.com"
+  },
+  "plugins": [
+    {
+      "name": "affitor",
+      "source": "./plugins/affitor",
+      "description": "Affitor MCP server (track clicks, leads and sales, check readiness) plus the Affitor integration skill."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "affitor": {
+      "command": "npx",
+      "args": ["-y", "@affitor/mcp"],
+      "env": {
+        "AFFITOR_API_KEY": "${user_config.api_key}"
+      }
+    }
+  }
+}
