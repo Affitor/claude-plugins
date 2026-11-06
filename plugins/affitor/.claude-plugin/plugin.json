@@ -14,5 +14,9 @@
     "affiliate",
     "mcp",
     "tracking"
-  ]
+  ],
+  "privacyPolicyUrl": "https://affitor.com/privacy",
+  "documentationUrl": "https://affitor.com/docs/api-reference/mcp",
+  "supportUrl": "https://affitor.com",
+  "icon": "./assets/icon.png"
 }
