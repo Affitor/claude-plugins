@@ -1,6 +1,6 @@
 {
   "name": "affitor",
-  "description": "Affitor plugins for Claude Code: affiliate tracking tools and the integration skill.",
+  "description": "Affitor for Claude Code: read-only affiliate program tools over OAuth and the integration guide.",
   "owner": {
     "name": "Affitor",
     "email": "hello@affitor.com"
@@ -9,7 +9,7 @@
     {
       "name": "affitor",
       "source": "./plugins/affitor",
-      "description": "Affitor MCP server (track clicks, leads and sales, check readiness) plus the Affitor integration skill."
+      "description": "Read your Affitor account over OAuth, with the Affitor integration guide."
     }
   ]
 }

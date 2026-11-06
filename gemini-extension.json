@@ -1,20 +1,17 @@
 {
   "name": "affitor",
-  "version": "0.1.0",
-  "description": "Affitor affiliate tracking: MCP tools to track clicks, leads and sales and check readiness, plus the integration guide.",
+  "version": "0.1.1",
+  "description": "Read your Affitor affiliate program over OAuth: partners, commissions, earnings, payouts and billing.",
   "mcpServers": {
     "affitor": {
-      "command": "npx",
-      "args": ["-y", "@affitor/mcp"]
+      "httpUrl": "https://mcp.affitor.com/mcp",
+      "oauth": {
+        "enabled": true,
+        "scopes": [
+          "read"
+        ]
+      }
     }
   },
-  "contextFileName": "GEMINI.md",
-  "settings": [
-    {
-      "name": "Affitor program API key",
-      "description": "From Affitor, Settings → API. Used only by the local MCP server.",
-      "envVar": "AFFITOR_API_KEY",
-      "sensitive": true
-    }
-  ]
+  "contextFileName": "GEMINI.md"
 }
